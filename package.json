@@ -1,0 +1,44 @@
+{
+  "name": "plm-test",
+  "version": "1.0.0",
+  "description": "Rest api for PLM group",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "build": "babel src/ --out-dir ./dist",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayanhdz5/plm-test.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Mysql",
+    "Sequelize",
+    "JS",
+    "ES6",
+    "Babel"
+  ],
+  "author": "brayanhdz5 <brayan.hernandez1222@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brayanhdz5/plm-test/issues"
+  },
+  "homepage": "https://github.com/brayanhdz5/plm-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  }
+}
